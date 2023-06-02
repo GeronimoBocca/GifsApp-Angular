@@ -11,7 +11,7 @@ export class GifsService {
     }
 
     private apiKey: string = 'fTeAzjw01mfOH2mLXINjPn7khGxIrtzH';
-    private serviceUrl: string = 'http://api.giphy.com/v1/gifs';
+    private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
 
     public gifsList: Gif[] = [];
 
